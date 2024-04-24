@@ -2,7 +2,7 @@
 
 module "iomete-data-plane" {
   source  = "iomete/iomete-data-plane/gcp"
-  version = "1.1.0"
+  version = "~> 1.1.0"
 
   # A user provided cluster name for IOMETE. It should be unique within GCP project and compatible with GCP naming conventions (See: https://cloud.google.com/compute/docs/naming-resources)
   cluster_name = "<cluster-name>"
